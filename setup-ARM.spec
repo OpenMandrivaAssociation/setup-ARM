@@ -14,9 +14,9 @@ ExcludeArch:	%{ix86} x86_64
 %rename		filesystem
 
 #Requires:	shadow-utils
-Requires(posttrans):	qemu-static-hack
 Requires(posttrans):	shadow-conv
 Requires(posttrans):	glibc
+Requires(posttrans):	qemu-static-hack
 
 %description
 The setup package contains a set of very important system configuration, setup 
