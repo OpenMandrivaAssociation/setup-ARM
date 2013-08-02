@@ -10,6 +10,7 @@ Url:		https://abf.rosalinux.ru/moondrake/setup
 Source0:	%{name}-%{version}.tar.xz
 Source1:	setup-ARM.rpmlintrc
 Provides:	setup
+ExcludeArch:	%{ix86} x86_64
 %rename		filesystem
 
 #Requires:	shadow-utils
