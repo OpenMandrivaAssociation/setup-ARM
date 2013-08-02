@@ -9,6 +9,8 @@ Group:		System/Base
 Url:		https://abf.rosalinux.ru/moondrake/setup
 Source0:	%{name}-%{version}.tar.xz
 Source1:	setup-ARM.rpmlintrc
+Provides:	setup
+%rename		filesystem
 
 #Requires:	shadow-utils
 Requires(posttrans):	qemu-static-hack
