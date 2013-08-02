@@ -1,0 +1,6 @@
+from Config import *
+from os import environ
+
+addFilter("E: non-standard-dir-perm")
+addFilter("E: dir-or-file-in-usr-local")
+addFilter("E: standard-dir-owned-by-package")

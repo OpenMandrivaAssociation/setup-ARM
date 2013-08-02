@@ -8,7 +8,7 @@ License:	Public Domain
 Group:		System/Base
 Url:		https://abf.rosalinux.ru/moondrake/setup
 Source0:	%{name}-%{version}.tar.xz
-Source1:	setup.rpmlintrc
+Source1:	setup-ARM.rpmlintrc
 
 #Requires:	shadow-utils
 Requires(posttrans):	qemu-static-hack
