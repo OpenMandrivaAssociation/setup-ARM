@@ -18,6 +18,7 @@ Requires(posttrans):	shadow-conv
 Requires(posttrans):	glibc
 Requires(posttrans):	qemu-static-hack
 
+BuildRequires:	make
 %description
 The setup package contains a set of very important system configuration, setup 
 files and directories, such as passwd, group, profile, basic directory layout
